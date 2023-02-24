@@ -233,7 +233,7 @@ nav a:hover {
     height: 30px;
     margin-top: 30px;
     border-bottom: 1px solid rgb(197, 185, 185);
-    padding: 10px;
+    padding: 8px;
     justify-content: flex-start;
     
    
@@ -357,10 +357,62 @@ footer .widget-title-text {
     
 }
 
+.footer-area .descrip {
+    font-size: 12px;
+    color: #7a7676;
+    text-indent: left;
+}
+
 .footer-copy {
     border-top: 1px solid #2c2c2c;
     color: #fff;
     line-height: 40px;
     font-size: 12px;
     margin-top: 30px;
+}
+
+address {
+    color: #7a7676 ;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+address span {
+    display: flex;
+    justify-content: flex-end
+}
+
+address a {
+    color: #fff;
+    text-decoration: none;
+}
+.contact-icons svg {
+   background-color: #413f3f;
+    margin-top: 45px;
+   margin-left: 15px;
+}
+
+
+.latest-posts  a {
+    color: #0079c7;
+    text-decoration: none;
+    margin-top: 15px;
+    
+}
+
+.latest-posts  a:hover{
+
+    text-decoration: underline;
+}
+
+.date-post {
+    margin-left: 28px;
+}
+
+
+.latest-posts {
+    font-size: 12px;
+     color: #7a7676 ;
+     
+     
 }
