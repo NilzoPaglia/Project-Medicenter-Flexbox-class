@@ -210,6 +210,8 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
+    
 }
 
 .block {
@@ -217,6 +219,7 @@ nav a:hover {
     height: 150px;
     background-color: #2b4c99;
     margin: 20px 0px 20px 0px;
+    max-width: 300px;
     
 }
 
@@ -225,11 +228,11 @@ nav a:hover {
 .contact-icons .email,
 .contact-icons .contact-form {
     display: flex;
-    width: 350px;
+    width: auto;
     height: 30px;
     margin-top: 30px;
     border-bottom: 1px solid rgb(197, 185, 185);
-     padding: 10px;
+    padding: 10px;
     justify-content: flex-start;
     
    
@@ -242,4 +245,64 @@ nav a:hover {
     align-items: center;
     margin-left: 10px;
     
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+    
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news-data {
+    display: flex;
+}
+
+article .news-posted-at {
+    background-color: #2b4c99;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news-coments {
+    background-color: #36a9e1;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news-thumb{
+    margin-top: 30px;
+}
+
+article .news-thumb img {
+    width: 100%;
+    height: auto;
+   
+}
+
+article .news-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+article .news-resume {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5c5c5c;
+    margin-bottom: 30px ;
 }
