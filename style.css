@@ -35,6 +35,7 @@ header {
    background-color: #fff;
    text-decoration: none;
   
+  
     
     
     
@@ -305,4 +306,53 @@ article .news-resume {
     line-height: 20px;
     color: #5c5c5c;
     margin-bottom: 30px ;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu {
+    display: flex;
+    
+}
+
+.fm1, .fm2, .fm3 {
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.fm1{
+    background-color: #39aae1;
+}
+
+.fm2{
+    background-color: #0079c7;
+}
+
+.fm3{
+    background-color: #2b4c99;
+}
+
+.footer-area {
+    display: flex;
+    color: #fff;
+}
+
+.footer-area-item {
+    flex: 1;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+footer .widget-title-text {
+    color: #fff;
+    
 }
