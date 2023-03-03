@@ -35,6 +35,7 @@ header {
    align-items: center;
    background-color: #fff;
    text-decoration: none;
+   margin-left: 20px;
   
   
     
@@ -469,8 +470,6 @@ address a {
 }
 
 
-
-
 .latest-reviews  a:hover{
 
     text-decoration: underline;
@@ -480,4 +479,103 @@ address a {
     margin-left: 35px;
 }
 
+.menuMobile {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
 
+.mm-line{
+    height: 3px;
+    background-color: #39aae1;
+}
+
+
+@media (max-width:600px) {
+
+    .banner-headline {
+        padding: 20px;
+    }
+
+    .banner-headline h1 {
+        font-size: 55px;
+    }
+    
+    .banner-headline h2 {
+        font-size: 17px;
+    }
+
+    .banner-options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    article {
+        margin-top: 2rem;
+    }
+
+    .aside-blocks {
+        margin-top: 2rem;
+    }
+
+
+    .container {
+        flex-direction: column;
+
+    }
+
+    #geral aside {
+        padding: 20px;
+    }
+
+    #geral section {
+        padding: 20px;
+    }
+
+    .widget .first {
+        margin-top: 11rem;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+    }
+
+    .footer-area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-copy {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 20px ;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
